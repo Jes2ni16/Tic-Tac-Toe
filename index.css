@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#startScreen{
+    height: 100vh;
+    background-color: #90e0ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.choose .btn{
+    background-color: #f6bd60;
+}
+.screen{
+border: 1px solid black;
+max-width: 40%;
+max-height: 40%;
+border-radius: 10px;
+}
+
+#main{
+    background-color: #264653;
+    height: 100vh;
+    overflow: hidden;
+}
+.ground{
+    font-size: 60px;
+    color: #ef476f;
+  min-height:110px;
+  min-width: 90px;
+    border: 1px solid white;
+    display: flex;
+  text-align: center;
+    cursor: pointer;
+justify-content: center;
+}
+.container1{
+    margin: 0 auto;
+
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 500px;
+}
+.players{
+    background-color: #f1faee;
+    height: 15%;
+ 
+    border-radius: 10px;
+}
+
+#restartBtn{
+    background-color: #ef476f;
+    max-width: 10%; 
+}
+#turn{
+    background-color: #ffc8dd;
+    width :30%;
+    height: 40px;
+    border-radius: 5px;
+}
+#roundBtn button{
+    background-color:#f6bd60;
+}
